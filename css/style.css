@@ -521,7 +521,7 @@ p a.more {
 	background: #325c85;
 	border: none;
 	border-radius: 3px;
-	color: #94a6b6;
+	color: white;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
 	height: 37px;
@@ -573,7 +573,7 @@ p a.more {
 	background: url(../images/icons.png) no-repeat 0 -123px;
 }
 #footer > p {
-	color: #0f378f;
+	color: white;
 	font-size: 12px;
 	line-height: 20px;
 	padding: 47px 0 29px;
