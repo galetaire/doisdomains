@@ -51,15 +51,15 @@ p {
 p a,
 #body div h2 a,
 #body div div#home div.news h4 a,
-#body div #newsblog ul li div h3 a,
-#body div #surfbase h3 a {
+#body div #dealwithit ul li div h3 a,
+#body div #yurop h3 a {
 	color: #d1d3d4;
 }
 p a:hover,
 #body div h2 a:hover,
 #body div div#home div.news h4 a:hover,
-#body div #newsblog ul li div h3 a:hover,
-#body div #surfbase h3 a:hover,
+#body div #dealwithit ul li div h3 a:hover,
+#body div #yurop h3 a:hover,
 p a.more:hover {
 	color: #ffc000;
 }
@@ -75,7 +75,7 @@ p a.more {
 	width: 940px;
 }
 #header a img,
-#body div #about div div.figure img,
+#body div #fuckyea div div.figure img,
 #body div #contact div form label {
 	display: block;
 }
@@ -123,9 +123,9 @@ p a.more {
 	color: #ffffff;
 }
 #body div div#home,
-#body div div#surfbase,
-#body div div#newsblog,
-#body div div#about,
+#body div div#yurop,
+#body div div#dealwithit,
+#body div div#fuckyea,
 #body div div#contact {
 	float: right;
 	width: 700px;
@@ -173,7 +173,7 @@ p a.more {
 	width: 118px;
 }
 #body div div#home div.section span,
-#body div #surfbase div a.blog {
+#body div #yurop div a.blog {
 	display: block;
 	font-size: 18px;
 }
@@ -182,15 +182,15 @@ p a.more {
 }
 #body div div#home div.news,
 #body div #contact > div,
-#body div #newsblog > div,
-#body div #about div {
+#body div #dealwithit > div,
+#body div #fuckyea div {
 	overflow: hidden;
 }
 #body div div#home div.news h3,
 #footer div #newsletter h3,
 #footer div #connect h3,
-#body div #newsblog div div h3,
-#body div #about div div.section h3,
+#body div #dealwithit div div h3,
+#body div #fuckyea div div.section h3,
 #body div #contact h3 {
 	color: #d8216d;
 	font-family: 'arvobold';
@@ -208,15 +208,15 @@ p a.more {
 	margin: 5px 0 0;
 }
 #body div div#home div.news a.figure img,
-#body div #surfbase div a.figure img,
-#body div #newsblog ul li div a img {
+#body div #yurop div a.figure img,
+#body div #dealwithit ul li div a img {
 	display: block;
 	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
 	opacity: 1;
 }
 #body div div#home div.news a.figure img:hover,
-#body div #surfbase div a.figure img:hover,
-#body div #newsblog ul li div a img:hover {
+#body div #yurop div a.figure img:hover,
+#body div #dealwithit ul li div a img:hover {
 	filter: alpha(opacity=90);/* Needed for IE8 and old versions */
 	opacity: 0.9;
 }
@@ -233,25 +233,25 @@ p a.more {
 	text-transform: uppercase;
 }
 #body div div#home div.news h4 a,
-#body div #newsblog ul li div h2 a {
+#body div #dealwithit ul li div h2 a {
 	color: #d1d3d4;
 	text-decoration: none;
 }
 #body div div#home div.news h4 a:hover,
-#body div #newsblog ul li div h2 a:hover {
+#body div #dealwithit ul li div h2 a:hover {
 	color: #d8216d;
 }
-#body div div#surfbase > div {
+#body div div#yurop > div {
 	overflow: hidden;
 	padding: 12px 0 42px;
 	position: relative;
 }
-#body div #surfbase div div {
+#body div #yurop div div {
 	float: left;
 	width: 299px;
 }
-#body div #surfbase div div h3,
-#body div #surfbase h3 {
+#body div #yurop div div h3,
+#body div #yurop h3 {
 	font-family: 'arvoregular';
 	font-size: 18px;
 	font-weight: normal;
@@ -259,10 +259,10 @@ p a.more {
 	margin: 0;
 	padding: 10px 0 0;
 }
-#body div #surfbase div a.figure {
+#body div #yurop div a.figure {
 	float: right;
 }
-#body div #surfbase div a.blog {
+#body div #yurop div a.blog {
 	background: url(../images/interface.png) no-repeat 0 -240px;
 	color: #d8216d;
 	display: block;
@@ -279,41 +279,41 @@ p a.more {
 	top: 30px;
 	width: 100px;
 }
-#body div #surfbase div a.blog:hover {
+#body div #yurop div a.blog:hover {
 	background: url(../images/interface.png) no-repeat -101px -240px;
 }
-#body div #surfbase div a.blog span {
+#body div #yurop div a.blog span {
 	display: block;
 	font-size: 18px;
 }
-#body div #surfbase h3,
-#body div #newsblog ul li:first-child,
-#body div #about div div.section h2 {
+#body div #yurop h3,
+#body div #dealwithit ul li:first-child,
+#body div #fuckyea div div.section h2 {
 	padding: 0;
 }
-#body div #surfbase img.figure {
+#body div #yurop img.figure {
 	display: block;
 	padding: 40px 0 6px;
 }
-#body div #newsblog ul {
+#body div #dealwithit ul {
 	list-style: none;
 	margin: 0;
 	padding: 0 0 53px;
 }
-#body div #newsblog ul li {
+#body div #dealwithit ul li {
 	overflow: hidden;
 	padding: 48px 0 0;
 }
-#body div #newsblog ul li div:first-child {
+#body div #dealwithit ul li div:first-child {
 	float: left;
 	position: relative;
 	width: 220px;
 }
-#body div #newsblog ul li div {
+#body div #dealwithit ul li div {
 	float: right;
 	width: 460px;
 }
-#body div #newsblog ul li div span {
+#body div #dealwithit ul li div span {
 	background: url(../images/interface.png) no-repeat;
 	color: #d8216d;
 	display: block;
@@ -330,44 +330,54 @@ p a.more {
 	width: 38px;
 	z-index: 1;
 }
-#body div #newsblog ul li div h2 {
+#body div #dealwithit ul li div h2 {
 	font-family: 'arvoregular';
-	font-size: 14px;
+	font-size: 34px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
 	padding: 0 0 27px;
 	text-transform: uppercase;
 }
-#body div #newsblog div div {
+#body div #dealwithit ul li div h4 {
+	color: #d8216d;
+	font-family: 'ultraregular';
+	font-size: 80px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 27px;
+	text-transform: uppercase;
+}
+#body div #dealwithit div div {
 	float: left;
 	margin: 0 0 0 20px;
 	width: 220px;
 }
-#body div #newsblog div div p a {
+#body div #dealwithit div div p a {
 	text-decoration: none;
 }
-#body div #newsblog div div p a:hover {
+#body div #dealwithit div div p a:hover {
 	color: #d1d3d4;
 	text-decoration: underline;
 }
-#body div #newsblog div div:first-child {
+#body div #dealwithit div div:first-child {
 	margin: 0;
 }
-#body div #about div:first-child {
+#body div #fuckyea div:first-child {
 	padding: 0 0 40px;
 }
-#body div #about div:first-child div {
+#body div #fuckyea div:first-child div {
 	float: left;
 	padding: 32px 0 0;
 	width: 300px;
 }
-#body div #about div img.figure {
+#body div #fuckyea div img.figure {
 	display: block;
 	float: right;
 }
-#body div #about div h2,
-#body div #about div div.section h2,
+#body div #fuckyea div h2,
+#body div #fuckyea div div.section h2,
 #body div #contact h2 {
 	color: #d8216d;
 	font-family: 'ultraregular';
@@ -377,12 +387,12 @@ p a.more {
 	margin: 0;
 	padding: 0 0 12px;
 }
-#body div #about div div.figure {
+#body div #fuckyea div div.figure {
 	float: left;
 	position: relative;
 	width: 220px;
 }
-#body div #about div div.figure a.callnow {
+#body div #fuckyea div div.figure a.callnow {
 	background: url(../images/interface.png) no-repeat 0 -110px;
 	color: #d8216d;
 	display: block;
@@ -399,14 +409,14 @@ p a.more {
 	top: 135px;
 	width: 90px;
 }
-#body div #about div div.figure a.callnow:hover {
+#body div #fuckyea div div.figure a.callnow:hover {
 	background: url(../images/interface.png) no-repeat -91px -110px;
 }
-#body div #about div div.section {
+#body div #fuckyea div div.section {
 	float: right;
 	width: 460px;
 }
-#body div #about div div.section h3 {
+#body div #fuckyea div div.section h3 {
 	font-size: 16px;
 	line-height: 24px;
 	padding: 27px 0 0;
@@ -535,7 +545,7 @@ p a.more {
 	width: 140px;
 }
 #footer div #connect h3,
-#body div #newsblog div div h3,
+#body div #dealwithit div div h3,
 #body div #contact h3 {
 	font-size: 16px;
 	padding: 0;
