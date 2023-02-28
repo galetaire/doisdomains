@@ -53,7 +53,9 @@ p a,
 #body div div#home div.news h4 a,
 #body div #dealwithit ul li div h3 a,
 #body div #yurop h3 a {
-	color: #d1d3d4;
+	color: #383838;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #d8216d;
 }
 p a:hover,
 #body div h2 a:hover,
@@ -61,7 +63,7 @@ p a:hover,
 #body div #dealwithit ul li div h3 a:hover,
 #body div #yurop h3 a:hover,
 p a.more:hover {
-	color: #ffc000;
+	color: #ffebf6;
 }
 p a.more {
 	color: #d1d3d4;
@@ -113,7 +115,7 @@ p a.more {
 	background: #d8216d;
 }
 #body div #navigation li.current a {
-	background: #d1d3d4;
+	background: #383838;
 	color: #d8216d;
 }
 #body div #navigation li.current a:hover {
@@ -138,6 +140,14 @@ p a.more {
 	line-height: 48px;
 	margin: 0;
 }
+#body div h0 {
+	color: #d8216d;
+	font-family: 'ultraregular';
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 48px;
+	margin: 0;
+}
 #body div h1 span {
 	text-transform: uppercase;
 }
@@ -156,7 +166,7 @@ p a.more {
 	position: relative;
 }
 #body div div#home div.section a {
-	background: url(../images/interface.png) no-repeat 0 -380px;
+	background: url(../images/interface2.png) no-repeat 0 -380px;
 	color: #d8216d;
 	display: block;
 	font-family: 'arvobold';
@@ -178,7 +188,7 @@ p a.more {
 	font-size: 18px;
 }
 #body div div#home div.section a:hover {
-	background: url(../images/interface.png) no-repeat -119px -380px;
+	background: url(../images/interface2.png) no-repeat -119px -380px;
 }
 #body div div#home div.news,
 #body div #contact > div,
@@ -187,7 +197,7 @@ p a.more {
 	overflow: hidden;
 }
 #body div div#home div.news h3,
-#footer div #newsletter h3,
+#footer div #content h3,
 #footer div #connect h3,
 #body div #dealwithit div div h3,
 #body div #fuckyea div div.section h3,
@@ -263,7 +273,7 @@ p a.more {
 	float: right;
 }
 #body div #yurop div a.blog {
-	background: url(../images/interface.png) no-repeat 0 -240px;
+	background: url(../images/interface2.png) no-repeat 0 -240px;
 	color: #d8216d;
 	display: block;
 	font-family: 'arvobold';
@@ -280,7 +290,7 @@ p a.more {
 	width: 100px;
 }
 #body div #yurop div a.blog:hover {
-	background: url(../images/interface.png) no-repeat -101px -240px;
+	background: url(../images/interface2.png) no-repeat -101px -240px;
 }
 #body div #yurop div a.blog span {
 	display: block;
@@ -314,21 +324,24 @@ p a.more {
 	width: 460px;
 }
 #body div #dealwithit ul li div span {
-	background: url(../images/interface.png) no-repeat;
+	background: url(../images/interface2.png) no-repeat 0 -240px;
 	color: #d8216d;
 	display: block;
 	font-family: 'arvobold';
 	font-size: 14px;
-	height: 59px;
-	left: 0;
+	height: 74px;
 	line-height: 24px;
-	padding: 11px 16px 0;
+	padding: 26px 0 0;
 	position: absolute;
+	right: 0;
 	text-align: center;
+	text-decoration: none;
 	text-transform: uppercase;
-	top: 0;
-	width: 38px;
-	z-index: 1;
+	top: 30px;
+	width: 100px;
+}
+#body div #dealwithit ul li div span:hover {
+	background: url(../images/interface2.png) no-repeat -101px -240px;
 }
 #body div #dealwithit ul li div h2 {
 	font-family: 'arvoregular';
@@ -393,7 +406,7 @@ p a.more {
 	width: 220px;
 }
 #body div #fuckyea div div.figure a.callnow {
-	background: url(../images/interface.png) no-repeat 0 -110px;
+	background: url(../images/interface2.png) no-repeat 0 -110px;
 	color: #d8216d;
 	display: block;
 	font-family: 'arvobold';
@@ -410,7 +423,7 @@ p a.more {
 	width: 90px;
 }
 #body div #fuckyea div div.figure a.callnow:hover {
-	background: url(../images/interface.png) no-repeat -91px -110px;
+	background: url(../images/interface2.png) no-repeat -91px -110px;
 }
 #body div #fuckyea div div.section {
 	float: right;
@@ -508,26 +521,26 @@ p a.more {
 	overflow: hidden;
 	padding: 45px 0 0;
 }
-#footer div #newsletter {
+#footer div #content {
 	float: left;
 	position: relative;
 	width: 780px;
 }
-#footer div #newsletter h3 {
+#footer div #content h3 {
 	font-size: 16px;
 	padding: 0;
 	width: 417px;
 }
-#footer div #newsletter p {
+#footer div #content p {
 	width: 425px;
 }
-#footer div #newsletter form {
+#footer div #content form {
 	left: 435px;
 	margin: 0;
 	position: absolute;
 	top: 27px;
 }
-#footer div #newsletter form input {
+#footer div #content form input {
 	background: #325c85;
 	border: none;
 	border-radius: 3px;
@@ -560,27 +573,21 @@ p a.more {
 	margin: 12px 10px 0;
 	text-indent: -99999px;
 }
-#footer div #connect a#facebook {
-	background: url(../images/icons.png) no-repeat;
-	height: 26px;
-	width: 12px;
+#footer div #connect a#nostr {
+	background: url(../images/nostr2.png);
+	width: 32px;
+	height: 32px;
 }
 #footer div #connect a#twitter {
-	background: url(../images/icons.png) no-repeat 0 -35px;
+	background: url(../images/twitter2.png);
 	width: 32px;
+	height: 32px;
 }
-#footer div #connect a#googleplus {
-	background: url(../images/icons.png) no-repeat 0 -97px;
-	width: 26px;
-}
-#footer div #connect a#facebook:hover {
-	background: url(../images/icons.png) no-repeat -12px 0;
+#footer div #connect a#nostr:hover {
+	background: url(../images/nostrb.png);
 }
 #footer div #connect a#twitter:hover {
-	background: url(../images/icons.png) no-repeat 0 -61px;
-}
-#footer div #connect a#googleplus:hover {
-	background: url(../images/icons.png) no-repeat 0 -123px;
+	background: url(../images/twitterb.png);
 }
 #footer > p {
 	color: white;
